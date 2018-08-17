@@ -124,14 +124,16 @@ header a{
 .locations{
   margin-top: 50px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-bottom: 70px;
+  background-position: top;
   height: 500px;
 }
 
 .location{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1000px;
+  justify-content: center;
+  width: 1200px;
 }
 
 .place{
