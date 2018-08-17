@@ -1,12 +1,32 @@
 /* universal styles*/
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: .9;
+  opacity: 0.9;
   text-align: center;
+}
+
+.main-content{
+  padding-top: 69px;
+  display:flex;
+  justify-content: center;
+}
+
+h2,h4{
+  padding: 10px;
+}
+
+.title{
+  background-color: black;
+  width: 1200px;
 }
 
 /* Header */
@@ -20,6 +40,7 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: black;
 }
 
 header img{
@@ -36,4 +57,15 @@ header li {
 
 header a{
   color: seashell;
+}
+
+/* mission section */
+
+.mission{
+  display:flex;
+  align-items: center;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
