@@ -9,7 +9,6 @@ body{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
   text-align: center;
 }
 
@@ -31,10 +30,12 @@ body{
 
 h2, h4, h3{
   padding: 15px;
+  opacity: .9;
 }
 
 h5{
   padding: 20px 15px 0 15px;
+  opacity: .9
 }
 
 .title{
@@ -49,6 +50,7 @@ img{
 
 p{
   padding: 25px 10px;
+  opacity: 1;
 }
 
 /* Header */
@@ -71,13 +73,23 @@ header img{
   width: auto;
 }
 
+header nav{
+  width: 350px;
+  margin-right: 10px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 header li {
   display: inline;
-  padding-right: 20px;
 }
 
 header a{
   color: seashell;
+  opacity: .9;
 }
 
 /* mission section */
@@ -96,11 +108,15 @@ header a{
 .teas{
   flex-direction: row;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 1020px;
 }
 
 .tea{
-  padding: 15px;
+  padding: 0 20px;
+}
+
+.tea h4{
+  padding: 10px 0 20px 0;
 }
 
 /* locations */
@@ -129,6 +145,7 @@ header a{
 
 footer{
   padding: 20px;
+  height: 200px;
 }
 
 .copyright {
